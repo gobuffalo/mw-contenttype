@@ -6,14 +6,13 @@ import (
 	"github.com/gobuffalo/buffalo"
 	"github.com/gobuffalo/buffalo/render"
 	"github.com/gobuffalo/httptest"
-	"github.com/gobuffalo/mw-contenttype"
-	"github.com/gobuffalo/x/httpx"
+	contenttype "github.com/gobuffalo/mw-contenttype"
 	"github.com/stretchr/testify/require"
 )
 
 func ctApp() *buffalo.App {
 	h := func(c buffalo.Context) error {
-		return c.Render(200, render.String(httpx.ContentType(c.Request())))
+		return c.Render(200, render.String(c.Request().Header.Get("Content-Type")))
 	}
 	a := buffalo.New(buffalo.Options{})
 	a.GET("/set", contenttype.Set("application/json")(h))

@@ -70,8 +70,6 @@ github.com/gobuffalo/tags/v3 v3.1.3 h1:yhq9gudiEngYtPzH1KtMUknxffQBqwNfkHKP6i4l4
 github.com/gobuffalo/tags/v3 v3.1.3/go.mod h1:WAAjKdskZUmdi6EkNjP2SXBwBwRovHsjJsPJbBiPlKc=
 github.com/gobuffalo/validate/v3 v3.3.2 h1:GZdJlDy6zDRXF5BnEiY+pGvGDFx95atMIWd3N3MMseE=
 github.com/gobuffalo/validate/v3 v3.3.2/go.mod h1:jiEEw+N7KbAP2aInFxGnfitI0g7HjXqcp5hDD6TaQDU=
-github.com/gobuffalo/x v0.1.0 h1:ILV6PIfyQto7RKfxRutQUuW234x+A5/+FRQpik0hNrM=
-github.com/gobuffalo/x v0.1.0/go.mod h1:WevpGD+5YOreDJznWevcn8NTmQEW5STSBgIkpkjzqXc=
 github.com/gofrs/uuid v4.0.0+incompatible/go.mod h1:b2aQJv3Z4Fp6yNu3cdSllBxTCLRxnplIgP/c0N/04lM=
 github.com/gofrs/uuid v4.1.0+incompatible/go.mod h1:b2aQJv3Z4Fp6yNu3cdSllBxTCLRxnplIgP/c0N/04lM=
 github.com/gofrs/uuid v4.2.0+incompatible h1:yyYWMnhkhrKwwr8gAOcOCYxOOscHgDS9yZgBrnJfGa0=
